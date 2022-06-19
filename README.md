@@ -18,7 +18,7 @@ In this project I tried to utilize our learning outcomes of all unit Full Stack 
 ## Snapshots 📷
 - Home page
 
-![signup](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/1.PNG)
+![signup](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/Screenshot%20(754).png?raw=true)
 
 - cart pages
 
