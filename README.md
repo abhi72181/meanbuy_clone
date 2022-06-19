@@ -33,7 +33,7 @@ In this project I tried to utilize our learning outcomes of all unit Full Stack 
 
 - Login page
 
-![indianWearmen1](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/7.PNG)
+![indianWearmen1](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/login.png?raw=true)
 
 - cart page 
 ![indianwearmen2](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/8.PNG)
