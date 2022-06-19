@@ -3,7 +3,7 @@ import { GET_DATA_ELECTRONICS_LOADING,GET_DATA_ELECTRONICS_SUCCESS,GET_DATA_ELEC
 
 export const getDataWatches=(value)=>(dispatch)=>{
 dispatch({type:GET_DATA_WATCH_LOADING});
-axios.get(`http://localhost:8080/${value}`).then((r)=>{
+axios.get(`https://meanbuybackend.herokuapp.com/${value}`).then((r)=>{
     dispatch({type:GET_DATA_WATCH_SUCCESS,payload:r.data})
 }).catch(()=>{
     dispatch({type:GET_DATA_WATCH_ERROR})
@@ -12,7 +12,7 @@ axios.get(`http://localhost:8080/${value}`).then((r)=>{
 
 export const getDataElectronics=(value)=>(dispatch)=>{
     dispatch({type:GET_DATA_ELECTRONICS_LOADING});
-    axios.get(`http://localhost:8080/${value}`).then((r)=>{
+    axios.get(`https://meanbuybackend.herokuapp.com/${value}`).then((r)=>{
         dispatch({type:GET_DATA_ELECTRONICS_SUCCESS,payload:r.data})
     }).catch(()=>{
         dispatch({type:GET_DATA_ELECTRONICS_ERROR})
@@ -21,7 +21,7 @@ export const getDataElectronics=(value)=>(dispatch)=>{
 
     export const getDataMobile=(value)=>(dispatch)=>{
         dispatch({type:GET_DATA_MOBILE_LOADING});
-        axios.get(`http://localhost:8080/${value}`).then((r)=>{
+        axios.get(`https://meanbuybackend.herokuapp.com/${value}`).then((r)=>{
             dispatch({type:GET_DATA_MOBILE_SUCCESS,payload:r.data})
         }).catch(()=>{
             dispatch({type:GET_DATA_MOBILE_ERROR})
@@ -30,7 +30,7 @@ export const getDataElectronics=(value)=>(dispatch)=>{
 
         export const getDataToy=(value)=>(dispatch)=>{
             dispatch({type:GET_DATA_TOY_LOADING});
-            axios.get(`http://localhost:8080/${value}`).then((r)=>{
+            axios.get(`https://meanbuybackend.herokuapp.com/${value}`).then((r)=>{
                 dispatch({type:GET_DATA_TOY_SUCCESS,payload:r.data})
             }).catch(()=>{
                 dispatch({type:GET_DATA_TOY_ERROR})
@@ -39,7 +39,7 @@ export const getDataElectronics=(value)=>(dispatch)=>{
 
             export const getDataBottles=(value)=>(dispatch)=>{
                 dispatch({type:GET_DATA_BOTTLES_LOADING});
-                axios.get(`http://localhost:8080/${value}`).then((r)=>{
+                axios.get(`https://meanbuybackend.herokuapp.com/${value}`).then((r)=>{
                     dispatch({type:GET_DATA_BOTTLES_SUCCESS,payload:r.data})
                 }).catch(()=>{
                     dispatch({type:GET_DATA_BOTTLES_ERROR})
@@ -48,7 +48,7 @@ export const getDataElectronics=(value)=>(dispatch)=>{
 
                 export const getDataSpeakers=(value)=>(dispatch)=>{
                     dispatch({type:GET_DATA_SPEAKERS_LOADING});
-                    axios.get(`http://localhost:8080/${value}`).then((r)=>{
+                    axios.get(`https://meanbuybackend.herokuapp.com/${value}`).then((r)=>{
                         dispatch({type:GET_DATA_SPEAKERS_SUCCESS,payload:r.data})
                     }).catch(()=>{
                         dispatch({type:GET_DATA_SPEAKERS_ERROR})
@@ -57,7 +57,7 @@ export const getDataElectronics=(value)=>(dispatch)=>{
 
                     export const getDataChargers=(value)=>(dispatch)=>{
                         dispatch({type:GET_DATA_CHARGERS_LOADING});
-                        axios.get(`http://localhost:8080/${value}`).then((r)=>{
+                        axios.get(`https://meanbuybackend.herokuapp.com/${value}`).then((r)=>{
                             dispatch({type:GET_DATA_CHARGERS_SUCCESS,payload:r.data})
                         }).catch(()=>{
                             dispatch({type:GET_DATA_CHARGERS_ERROR})
@@ -66,7 +66,7 @@ export const getDataElectronics=(value)=>(dispatch)=>{
 
                         export const getDataNewarrivals=(value)=>(dispatch)=>{
                             dispatch({type:GET_DATA_NEWARRIVALS_LOADING});
-                            axios.get(`http://localhost:8080/${value}`).then((r)=>{
+                            axios.get(`https://meanbuybackend.herokuapp.com/${value}`).then((r)=>{
                                 dispatch({type:GET_DATA_NEWARRIVALS_SUCCESS,payload:r.data})
                             }).catch(()=>{
                                 dispatch({type:GET_DATA_NEWARRIVALS_ERROR})
@@ -75,25 +75,25 @@ export const getDataElectronics=(value)=>(dispatch)=>{
 
                             export const getDataWatchFilterandSort=(value,brand,sorted,orders)=>(dispatch)=>{
                                 if(value!="" && brand!="" && sorted!="" && orders!=""){
-                                    axios.get(`http://localhost:8080/${value}?brand=${brand}&_sort=${sorted}&_order=${orders}`).then((r)=>{
+                                    axios.get(`https://meanbuybackend.herokuapp.com/${value}?brand=${brand}&_sort=${sorted}&_order=${orders}`).then((r)=>{
                                         dispatch({type:GET_DATA_WATCHES_FILTER_AND_SORT,payload:r.data})
                                     })
                                     
                                 }
 
                                 if(value!="" && brand!="" && sorted=="" && orders==""){
-                                    axios.get(`http://localhost:8080/${value}?brand=${brand}`).then((r)=>{
+                                    axios.get(`https://meanbuybackend.herokuapp.com/${value}?brand=${brand}`).then((r)=>{
                                         dispatch({type:GET_DATA_WATCHES_FILTER_AND_SORT,payload:r.data})
                                     })
                                 }
                                 if(value!="" && brand==""  && sorted!="" && orders!=""){
-                                    axios.get(`http://localhost:8080/${value}?_sort=${sorted}&_order=${orders}`).then((r)=>{
+                                    axios.get(`https://meanbuybackend.herokuapp.com/${value}?_sort=${sorted}&_order=${orders}`).then((r)=>{
                                         dispatch({type:GET_DATA_WATCHES_FILTER_AND_SORT,payload:r.data})
                                     })
                                 }
 
                                 if(value!="" && brand==""  && sorted=="" && orders==""){
-                                    axios.get(`http://localhost:8080/${value}`).then((r)=>{
+                                    axios.get(`https://meanbuybackend.herokuapp.com/${value}`).then((r)=>{
                                         dispatch({type:GET_DATA_WATCHES_FILTER_AND_SORT,payload:r.data})
                                     })
                                 }
