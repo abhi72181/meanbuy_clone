@@ -1,0 +1,56 @@
+.mainWatchContainer{
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+    margin-bottom: 50px;
+}
+.gridShow{
+    width: 75%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.watchAccordion{
+    width: 20%;
+    margin-right: 5%;
+}
+.watchpriceslider{
+    width: 50%;
+    font-size: 18px;
+    color: orange;
+    font-weight: 700;
+   
+}
+.watchparaslider{
+    width: 50%;
+    font-size: 18px;
+    color: green;
+    font-weight: 400;
+   
+}
+.watchflex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.ratingslider{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+   margin-top: 10px;
+}
+.insideratingslider{
+    text-align: center;
+    width: 30%;
+   border-radius: 20px;
+    padding: 5px;
+    color: white;
+    background-color: green;
+}
+.AddbtnWatch{
+    width: 100%;
+    margin-top: 10px;
+}

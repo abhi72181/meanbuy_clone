@@ -1,0 +1,115 @@
+#root { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* justify-content: space-between; */
+}
+
+.ratingslider{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+   margin-top: 10px;
+}
+.insideratingslider{
+    width: 20%;
+   border-radius: 20px;
+    padding: 5px;
+    color: white;
+    background-color: green;
+}
+.priceslider{
+    font-size: 18px;
+    color: orange;
+    font-weight: 700;
+   
+}
+.paraslider{
+    font-size: 18px;
+    color: green;
+    font-weight: 400;
+   
+}
+.nameslider{
+    margin-top: 10px;
+    color: grey;
+}
+/* h2{
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+h2:after{
+   width: 120px;
+   content: "";
+    position: absolute;
+    height: 2px;
+    display: block;
+    background-color: black;
+    color: black;
+    margin-top: 50%;
+} */
+.headerslider{
+    font-size: 40px;
+    font-weight: 700;
+}
+.flexheaderslider{
+    
+    display: flex;
+   
+}
