@@ -19,6 +19,8 @@ In this project I tried to utilize our learning outcomes of all unit Full Stack 
 - Home page
 
 ![signup](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/Screenshot%20(754).png?raw=true)
+![signup](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/Screenshot%20(756).png?raw=true)
+
 
 - cart pages
 
