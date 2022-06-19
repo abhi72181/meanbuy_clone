@@ -24,24 +24,12 @@ In this project I tried to utilize our learning outcomes of all unit Full Stack 
 
 
 
-- cart pages
+- product watches
 
-![linkAccount](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/2.PNG)
 
-- product women
+![linkAccount](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/watch.png?raw=true)
+<!-- https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/watch.png?raw=true -->
 
-![log-in](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/3.PNG)
-
-- product category 
-
-![personalDetails](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/4.PNG)
-
-- women section 
-
-![MensSection1](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/5.PNG)
--men section 
-
-![MenSection2](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/6.PNG)
 
 - Login page
 
