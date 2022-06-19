@@ -51,11 +51,11 @@ In this project I tried to utilize our learning outcomes of all unit Full Stack 
 
 
 - Payment 
-- 
+
 ![cart1](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/payment.png?raw=true)
 
 - Thankyou
-- 
+
 ![cart1](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/thanks.png?raw=true)
 <br/> <br/> 
 
