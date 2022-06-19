@@ -1,71 +1,75 @@
-# Getting Started with Create React App
+## _Meanbuy(Clone)_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project: Cloning [Meanbuy](https://www.meanbuy.com/) site.
 
-## Available Scripts
+MeanBuy was originally founded as a cross border B2C e-commerce platform, . It primarily focuses on bringing transparency to customers ordering directly from wholesalers or manufacturers. By offering flexible pricing around future delivery dates. MeanBuy was able to offer the customer a unique shopping experience, while still being able to exactly know when products would arrive. Our pricing algorithm made life easier for end-consumers and sellers!
 
-In the project directory, you can run:
+In this project I tried to utilize our learning outcomes of all unit Full Stack Web Development course at Masai School. With our best efforts,I tried to clone the whole website replicating same UI and functionality as of the original with few changes.
 
-### `npm start`
+## Technology Stack Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- CSS
+- JavaScript
+- react js
+- redux 
+- chakra-ui
+- json-server
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Snapshots 📷
+- Home page
 
-### `npm test`
+![signup](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/1.PNG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- cart pages
 
-### `npm run build`
+![linkAccount](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/2.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- product women
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![log-in](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/3.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- product category 
 
-### `npm run eject`
+![personalDetails](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/4.PNG)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- women section 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![MensSection1](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/5.PNG)
+-men section 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![MenSection2](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/6.PNG)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Login page
 
-## Learn More
-<img src="/pages/images/Screenshot (753).png" alt="image1" /> 
+![indianWearmen1](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/7.PNG)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- cart page 
+![indianwearmen2](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/8.PNG)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- checkout page
 
-### Code Splitting
+![cart1](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/9.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+- Payment & Checkout Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br/> <br/> 
 
-### Making a Progressive Web App
+![cart2](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/10.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## How To Run The Project
+1. First click on https://meanbuy-clone-alpha.vercel.app/ to reach the home page where you can see the navbar footer and the body of homepage, Navbar is Provided with many routes and links and it also has a cart link that is a protected route, so without logging in user cannot open that cart page.
+2. Then after checking cart link user will be redirected to the login page because of protected route and then he has to login in order to see the cart page.
+3. User can manually signup and login as there is a link provided for login and signup but do keep in mind that I have used json-server, so the email and password of login should be according to json-server for eg:-(email:-eve.holt@reqres.in) & (password:- cityslicka). And then user gets logged in after successful authentication.
+4. So in the categories section there are many list of items where user can filter and sort and then he can add the product to the cart and then he can visit the cart and from there he can delete items from the cart and then he can proceed to checkout page.
+5. In checkout page, user has to fill all the contact details and there he can set the promocode also. If a person enters "meanbuy30" he gets 30% discount.
+6. So after that user can proceed to payment page where he can enter the otp which is already set to "1234". Then atlast he sees the thanks page.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## End Notes 🧾
+In this project I tried to the best of our ability to replicate all the functionality and also nearly complete UI of the site. This was a great learning curve as initially it seemed imposible to acheive the objective but with time as I kept on learning new tools and technique during construct week I finally tasted the success in completing the project.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Limitations
+Due to time constraint, I was able to make only one watches page which has all the crud functionalties. 
