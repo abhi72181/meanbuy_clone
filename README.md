@@ -19,8 +19,11 @@ In this project I tried to utilize our learning outcomes of all unit Full Stack 
 - Home page
 
 ![signup](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/Screenshot%20(754).png?raw=true)
+<br />
 ![signup](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/Screenshot%20(756).png?raw=true)
+<br />
 ![signup](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/Screenshot%20(758).png?raw=true)
+<br />
 
 
 
@@ -31,23 +34,32 @@ In this project I tried to utilize our learning outcomes of all unit Full Stack 
 <!-- https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/watch.png?raw=true -->
 
 
+- Signup page
+
+![indianWearmen1](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/signup.png?raw=true)
+
 - Login page
 
 ![indianWearmen1](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/login.png?raw=true)
 
 - cart page 
-![indianwearmen2](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/8.PNG)
+![indianwearmen2](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/cartpage.png?raw=true)
 
 - checkout page
 
-![cart1](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/9.PNG)
+![cart1](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/checkout.png?raw=true)
 
 
-- Payment & Checkout Page
+- Payment 
+- 
+![cart1](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/payment.png?raw=true)
 
+- Thankyou
+- 
+![cart1](https://github.com/abhi72181/meanbuy_clone/blob/main/public/images/thanks.png?raw=true)
 <br/> <br/> 
 
-![cart2](https://raw.githubusercontent.com/surajahirwar/maxfashion_clone/main/Maxfation_backend/10.PNG)
+
 
 
 
