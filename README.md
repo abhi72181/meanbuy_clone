@@ -4,7 +4,7 @@ Project: Cloning [Meanbuy](https://www.meanbuy.com/) site.
 
 MeanBuy was originally founded as a cross border B2C e-commerce platform, . It primarily focuses on bringing transparency to customers ordering directly from wholesalers or manufacturers. By offering flexible pricing around future delivery dates. MeanBuy was able to offer the customer a unique shopping experience, while still being able to exactly know when products would arrive. Our pricing algorithm made life easier for end-consumers and sellers!
 
-In this project I tried to utilize our learning outcomes of all unit Full Stack Web Development course at Masai School. With our best efforts,I tried to clone the whole website replicating same UI and functionality as of the original with few changes.
+In this project I tried to utilize my learning outcomes of all unit Full Stack Web Development course at Masai School. With my best efforts,I tried to clone the whole website replicating same UI and functionality as of the original with few changes.
 
 ## Technology Stack Used
 
@@ -73,7 +73,7 @@ In this project I tried to utilize our learning outcomes of all unit Full Stack 
 6. So after that user can proceed to payment page where he can enter the otp which is already set to "1234". Then atlast he sees the thanks page.
 
 ## End Notes 🧾
-In this project I tried to the best of our ability to replicate all the functionality and also nearly complete UI of the site. This was a great learning curve as initially it seemed imposible to acheive the objective but with time as I kept on learning new tools and technique during construct week I finally tasted the success in completing the project.
+In this project I tried to the best of my ability to replicate all the functionality and also nearly complete UI of the site. This was a great learning curve as initially it seemed imposible to acheive the objective but with time as I kept on learning new tools and technique during construct week I finally tasted the success in completing the project.
 
 ## Limitations
 Due to time constraint, I was able to make only one watches page which has all the crud functionalties. 
