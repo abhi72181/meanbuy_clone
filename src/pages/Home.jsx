@@ -215,7 +215,7 @@ const Home = () => {
       
 
 
-      <h2 className="headerslider">Mobile</h2>
+      <h2 className="headerslider">Mobile Accessories</h2>
       <Divider />
       <>
         <Swiper

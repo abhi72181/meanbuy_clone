@@ -50,32 +50,31 @@ const Navbar = () => {
       heading: "Men",
       list: [
         { name: "Watches", path: "/watches" },
-        { name: "Shirts", path: "/watches" },
-        { name: "jeans", path: "/watches" },
+        { name: "New Arrivals", path: "/watches" },
       ],
     },
     {
       heading: "Women",
       list: [
-        { name: "Jewellery", path: "/watches" },
-        { name: "Makeup Accessories", path: "/watches" },
+       
+        { name: "New Arrivals", path: "/watches" },
         { name: "Watches", path: "/watches" },
       ],
     },
     {
       heading: "Electronics",
       list: [
-        { name: "Gaming Accessories", path: "/watches" },
-        { name: "Keyboards & Mouse", path: "/watches" },
-        { name: "Laptops", path: "/watches" },
-        { name: "Small Appliances", path: "/watches" },
+        { name: "Mobile", path: "/watches" },
+        { name: "Electronics", path: "/watches" },
+        { name: "Wireless Chargers", path: "/watches" },
+        { name: "Wireless Speakers", path: "/watches" },
       ],
     },
     {
       heading: "KIDS & MOM",
       list: [
-        { name: "Kid's Shoes", path: "/watches" },
-        { name: "School Backpacks", path: "/watches" },
+        
+        { name: "Water Bottles", path: "/watches" },
         { name: "Toys", path: "/watches" },
       ],
     },
