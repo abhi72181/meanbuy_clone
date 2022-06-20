@@ -24,6 +24,7 @@ import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Payment from './pages/Payment';
 import Thanks from './pages/Thanks';
+// import WirelessSpeakers from './products/WirelessSpeakers';
 function App() {
   const navigate=useNavigate()
   const location=useLocation()
@@ -65,6 +66,7 @@ function App() {
         <Route path='/signup' element={<Signup />} />
           <Route path='/cart' element={<RequiredAuth><Cart /></RequiredAuth>} />
           <Route path='/watches' element={<Watches />} />
+          {/* <Route path='/wirelessSpeakers' element={<WirelessSpeakers />} /> */}
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/payment" element={<Payment />} />
           <Route path="/thanks" element={<Thanks />} />

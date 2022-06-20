@@ -1,4 +1,4 @@
-import { GET_DATA_BOTTLES_ERROR, GET_DATA_BOTTLES_LOADING, GET_DATA_BOTTLES_SUCCESS, GET_DATA_CHARGERS_ERROR, GET_DATA_CHARGERS_LOADING, GET_DATA_CHARGERS_SUCCESS, GET_DATA_ELECTRONICS_ERROR, GET_DATA_ELECTRONICS_LOADING, GET_DATA_ELECTRONICS_SUCCESS, GET_DATA_MOBILE_LOADING, GET_DATA_MOBILE_SUCCESS, GET_DATA_NEWARRIVALS_ERROR, GET_DATA_NEWARRIVALS_LOADING, GET_DATA_NEWARRIVALS_SUCCESS, GET_DATA_SPEAKERS_ERROR, GET_DATA_SPEAKERS_LOADING, GET_DATA_SPEAKERS_SUCCESS, GET_DATA_TOY_ERROR, GET_DATA_TOY_LOADING, GET_DATA_TOY_SUCCESS, GET_DATA_WATCHES_FILTER_AND_SORT, GET_DATA_WATCH_ERROR, GET_DATA_WATCH_LOADING, GET_DATA_WATCH_SUCCESS } from "./action.types"
+import { GET_DATA_BOTTLES_ERROR, GET_DATA_BOTTLES_LOADING, GET_DATA_BOTTLES_SUCCESS, GET_DATA_CHARGERS_ERROR, GET_DATA_CHARGERS_LOADING, GET_DATA_CHARGERS_SUCCESS, GET_DATA_ELECTRONICS_ERROR, GET_DATA_ELECTRONICS_LOADING, GET_DATA_ELECTRONICS_SUCCESS, GET_DATA_MOBILE_LOADING, GET_DATA_MOBILE_SUCCESS, GET_DATA_NEWARRIVALS_ERROR, GET_DATA_NEWARRIVALS_LOADING, GET_DATA_NEWARRIVALS_SUCCESS, GET_DATA_SPEAKERS_ERROR, GET_DATA_SPEAKERS_LOADING, GET_DATA_SPEAKERS_SUCCESS, GET_DATA_TOY_ERROR, GET_DATA_TOY_LOADING, GET_DATA_TOY_SUCCESS, GET_DATA_WATCHES_FILTER_AND_SORT, GET_DATA_WATCH_ERROR, GET_DATA_WATCH_LOADING, GET_DATA_WATCH_SUCCESS, GET_DATA_WIRELESSSPEAKERS_FILTER_AND_SORT } from "./action.types"
 
 
 const initialState={
@@ -44,6 +44,9 @@ const initialState={
     },
 
     getDataWatchesFilterandSort:{
+        data:[]
+    },
+    getDataWirelessSpeakersFilterandSort:{
         data:[]
     }
 }
@@ -376,10 +379,12 @@ export const getDataMobileReducer=(state=initialState,{type,payload})=>{
                         }
 
                         export const getDataWatchesFilterandSortReducer=(state=initialState,{type,payload})=>{
+                            console.log(payload,"paycheck")
                             switch(type){
                                 
+                                
                             
-                                case GET_DATA_WATCHES_FILTER_AND_SORT:{
+                         case GET_DATA_WATCHES_FILTER_AND_SORT:{
                                     return {
                                         ...state,
                                         getDataWatchesFilterandSort:{
@@ -393,3 +398,5 @@ export const getDataMobileReducer=(state=initialState,{type,payload})=>{
                                 default: return {...state}
                             }
                             }
+
+                           

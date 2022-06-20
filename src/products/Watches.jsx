@@ -72,6 +72,8 @@ const Watches = () => {
         
       }, [brand,sort,orders]);
 
+      console.log(data,"need")
+
     //   if(watchloading){
     //     return <h2>loading...</h2>
     //   }

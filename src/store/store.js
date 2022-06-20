@@ -3,7 +3,7 @@ import thunk from "redux-thunk"
 
 
 // import { getDataReducer } from "./getData/reducer"
-import { getDataBottlesReducer, getDataChargersReducer, getDataNewarrivalsReducer, getDataSpeakersReducer, getDataWatchesFilterandSortReducer, getDataWatchReducer } from "./getData/reducer"
+import { getDataBottlesReducer, getDataChargersReducer, getDataNewarrivalsReducer, getDataSpeakersReducer, getDataWatchesFilterandSortReducer, getDataWatchReducer, getDataWirelessSpeakersFilterandSortReducer } from "./getData/reducer"
 import { getDataElectronicsReducer } from "./getData/reducer"
 import { getDataMobileReducer } from "./getData/reducer"
 import { getDataToyReducer } from "./getData/reducer"
@@ -23,6 +23,7 @@ const rootReducer=combineReducers({
     getDataNewarrivals:getDataNewarrivalsReducer,
     auth:authReducer,
     getDataWatchesFilterandSort:getDataWatchesFilterandSortReducer,
+   
     getCartData:getCartReducer,
     addCartData:addCartReducer,
     deleteCartData:deleteCartReducer
